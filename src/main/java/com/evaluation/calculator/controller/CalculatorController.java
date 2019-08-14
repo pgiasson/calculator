@@ -1,0 +1,10 @@
+package com.evaluation.calculator.controller;
+
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(value = "/calculate", produces = MediaType.APPLICATION_JSON_VALUE)
+public class CalculatorController {
+}
